@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{CD42E566-19DB-40ED-BC71-5663ACAACE20}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{082D61C9-6846-43FE-9ADD-DB660E578769}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{63874351-C29A-448C-9403-89D7313EA49E}">
+								<Image FileName="680596473" Left="-8" Top="-8" Right="1374" Bottom="736" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageSignIntoLexingtonSoft" Key="{635E5ADE-CB2E-4C6B-A6A1-6EDC5268CA42}">
+								<Image FileName="680596473" Left="0" Top="103" Right="1366" Bottom="728" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://lexingtonsoft.freshdesk.com/support/login" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionLoginContainer" Key="{2D818F3E-E07B-44A3-8874-6F5B1F36560C}">
+										<Image FileName="-1496539710" Left="116" Top="232" Right="854" Bottom="689" />
+										<Selectors>
+											<Selector>
+												<Value Value="#login-container" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Login to the support portal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;main&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formNewUserSession" Key="{D51B3341-D79F-413E-933D-3792428A2122}">
+										<Image FileName="-1496539710" Left="156" Top="352" Right="563" Bottom="649" />
+										<Selectors>
+											<Selector>
+												<Value Value="#new_user_session" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Remember me on this computer&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;login&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;new_user_session&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;login-form&apos;]/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputUserSessionEmail" Key="{9216C4DF-D5F2-4B04-BF6A-E375D1A1717D}">
+										<Image FileName="-1496539710" Left="156" Top="352" Right="563" Bottom="392" />
+										<TypeInfo Item0="{E3A03777-C8C8-4FA4-A28B-FABD6E3EC5C1}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#user_session_email" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section//div[@id=&apos;login-form&apos;]/form/fieldset//input[contains(@class, &apos;required&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;new_user_session&apos;]//div/div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//section//div[@id=&apos;login-form&apos;]/form/fieldset/div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxUserSessionPassword" Key="{E4DA950A-0663-43B7-9712-70E5014EC578}">
+										<Image FileName="-496045459" Left="156" Top="408" Right="563" Bottom="448" />
+										<TypeInfo Item0="{F1814F79-7D97-4795-B0BD-2339E3172B6D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#user_session_password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section//div[@id=&apos;login-form&apos;]/form/fieldset/div[2]//input[contains(@class, &apos;special&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;new_user_session&apos;]//div[2]/div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//section//div[@id=&apos;login-form&apos;]/form/fieldset/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLogin" Key="{57E6DA77-0AA1-4A18-839F-0A063F6281EC}">
+										<Image FileName="486360277" Left="156" Top="540" Right="242" Bottom="570" />
+										<TypeInfo Item0="{381E5375-87BC-4978-A818-C42483D4F783}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Login&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section//div[@id=&apos;login-form&apos;]/form/fieldset//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section//div[@id=&apos;login-form&apos;]/form/fieldset//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;new_user_session&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//section//div[@id=&apos;login-form&apos;]/form/fieldset//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{082D61C9-6846-43FE-9ADD-DB660E578769}">
+			<Child Name="BrowserWindow" Owner="{63874351-C29A-448C-9403-89D7313EA49E}" />
+			<Child Name="pageSignIntoLexingtonSoft" Owner="{635E5ADE-CB2E-4C6B-A6A1-6EDC5268CA42}">
+				<Child Name="sectionLoginContainer" Owner="{2D818F3E-E07B-44A3-8874-6F5B1F36560C}">
+					<Child Name="formNewUserSession" Owner="{D51B3341-D79F-413E-933D-3792428A2122}">
+						<Child Name="emailinputUserSessionEmail" Owner="{9216C4DF-D5F2-4B04-BF6A-E375D1A1717D}" />
+						<Child Name="passwordboxUserSessionPassword" Owner="{E4DA950A-0663-43B7-9712-70E5014EC578}" />
+						<Child Name="buttonLogin" Owner="{57E6DA77-0AA1-4A18-839F-0A063F6281EC}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
